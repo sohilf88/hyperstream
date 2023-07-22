@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="dark:bg-slate-700 h-12 sm:h-16 md:h-20 lg:h-24 shadow sm:shadow-sm lg:shadow-lg xl:shadow-2xl xl:text-2xl ">
+    <header className="dark:bg-slate-700 h-12 sm:h-16 md:h-20 lg:h-24 shadow sm:shadow-sm lg:shadow-lg xl:shadow-2xl xl:text-2xl fixed left-0 top-0 right-0 ">
       <nav className=" px-2 sm:px-3 md:px-5 lg:px-6  grid grid-col-2 items-center h-full lg:mx-auto text-sm sm:text-base md:text-lg lg:text-xl">
         <div className="logo ">
           <div className="col-start-1">
