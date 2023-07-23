@@ -1,5 +1,9 @@
 function page() {
-  return <div>Admin Dashboard</div>;
+  return (
+    <section >
+      Admin Dashboard
+    </section>
+  );
 }
 
 export default page;

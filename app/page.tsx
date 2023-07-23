@@ -1,24 +1,13 @@
-import { useEffect, useState } from "react";
+
 import Videoplayer from "./../components/videoplayer";
 
 export default function Home() {
-  // const [mounted, setMounted] = useState(false);
-  // useEffect(() => {
-  //   setMounted(true);
-  // }, []);
-
-  // if (!mounted)
+  
   return (
     <>
-      <main className=" lg:mt-12 grid lg:gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-1  2xl:grid-cols-3  ">
+      <main className="mt-10 sm:mt-14 md:mt-20 lg:mt-24 xl:mt-28 grid lg:gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  2xl:grid-cols-3 last-of-type:mb-8  ">
         <Videoplayer />
-        <Videoplayer />
-        <Videoplayer />
-        <Videoplayer />
-        <Videoplayer />
-        <Videoplayer />
-        <Videoplayer />
-        <Videoplayer />
+        
       </main>
     </>
   );
